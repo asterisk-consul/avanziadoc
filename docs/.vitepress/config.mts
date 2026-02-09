@@ -134,8 +134,7 @@ function sidebarReportes(): DefaultTheme.SidebarItem[] {
             {
               text: "RemitosVSCompras",
               link: "/reportes/RemitosVsCompras",
-            },
-            { text: "Sueldos", link: "/reportes/manual_usuario_rhsueldos" },
+            }
           ],
         },
         {

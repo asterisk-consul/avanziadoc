@@ -46,9 +46,9 @@ function getDocsWithTags(): DocWithTags[] {
 
 export default withMermaid(
   defineConfig({
-    base: "/gmdoc/",
-    title: "GM",
-    description: "Prueba",
+    base: "/avanziadoc/",
+    title: "Avanzia",
+    description: "Documentacion de flujos de Avnazia, Condiseño, Bistro",
 
     vite: {
       optimizeDeps: {
@@ -56,7 +56,7 @@ export default withMermaid(
       },
       plugins: [tailwindcss()],
       define: {
-        __DOCS_WITH_TAGS__: JSON.stringify(getDocsWithTags()), // 👈 acá
+        __DOCS_WITH_TAGS__: JSON.stringify(getDocsWithTags()),
       },
     },
     themeConfig: {
@@ -79,7 +79,7 @@ export default withMermaid(
       },
 
       socialLinks: [
-        { icon: "github", link: "https://github.com/asterisk-consul/gmdoc" },
+        { icon: "github", link: "https://github.com/asterisk-consul/avanziadoc" },
       ],
 
       lastUpdated: {
